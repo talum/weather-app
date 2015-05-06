@@ -24,3 +24,4 @@ weather.forecasts.each do |forecast|
 	puts dayName + " is going to be " + forecast['text'].downcase + ' with a low of ' + forecast['low'].to_s + " and a high of " + forecast['high'].to_s
 end
 
+puts “This is a test with Git.”
